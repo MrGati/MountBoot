@@ -55,7 +55,7 @@ Follow the prompts. If you're unsure about any option, the defaults are generall
 
 ## Current Features (v0.1)
 
-- Core Ventoy setup and ISO installation workflow
+- Core Ventoy setup and ISO installation workflow (I'm not sure if memdisk is working)
 - Arch Linux ISO pre-linked (not recommended using)
 
 ---
