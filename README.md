@@ -44,7 +44,7 @@ MountBoot is a shell script that runs inside a lightweight liveboot environment 
 ## Installation & Usage (antiX)
 
 ```bash
-wget https://raw.githubusercontent.com/MrGati/MountBoot/main/MountBoot.sh
+wget raw.githubusercontent.com/MrGati/MountBoot/main/MountBoot.sh
 sh MountBoot
 ```
 
