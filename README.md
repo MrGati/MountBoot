@@ -68,8 +68,4 @@ Follow the prompts. If you're unsure about any option, the defaults are generall
 - Add a pre-linked ISO library
 - Custom antiX ISO with MountBoot pre-installed and a friendlier interface
 
----
-
-## Future Project
-
-A related project is planned that removes the USB requirement entirely, letting you boot and install ISOs directly from your phone onto your PC.
+tly from your phone onto your PC.
