@@ -1,4 +1,4 @@
-# MountBoot 0.1 (NOT WORKING)
+# MountBoot 0.1
 
 **Install any OS from a single ISO — just a small USB required.**
 
@@ -50,21 +50,22 @@ sh MountBoot
 
 Follow the prompts. If you're unsure about any option, the defaults are generally fine.
 
+[EXTRA NOTE]: To host a custom ISO file, I usually install an HTTP server application on my phone and share the file via my phone local IP address.
+
 ---
 
 ## Current Features (v0.1)
 
-- Core Ventoy setup and ISO installation workflow (I'm not sure if memdisk is working)
-- Arch Linux ISO pre-linked (not recommended using)
+- Core Ventoy setup and ISO installation workflow
 
 ---
 
-## Roadmap
+## What I still want to add/change:
 
 - After-install cleanup: auto-delete Ventoy partitions and merge free space into the OS partition
 - Support selecting an ISO from an existing partition/disk instead of downloading it
 - File preservation: save personal files before wiping, restore them after install
-- Expand the pre-linked ISO library
+- Add a pre-linked ISO library
 - Custom antiX ISO with MountBoot pre-installed and a friendlier interface
 
 ---
