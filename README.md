@@ -67,5 +67,3 @@ Follow the prompts. If you're unsure about any option, the defaults are generall
 - File preservation: save personal files before wiping, restore them after install
 - Add a pre-linked ISO library
 - Custom antiX ISO with MountBoot pre-installed and a friendlier interface
-
-tly from your phone onto your PC.
