@@ -279,16 +279,3 @@ EOF
 
 # Run main program
 main
-
-# =============================================================================
-# To do later:
-#
-# - Either more info in how to use partition wizard and gparted to delete the 
-#   Ventoy partitions after the installation on github, or a script to do it
-#   (not likely, would have to do a big system).
-#
-# - Save folders and files to a separate partition (There will be a text file 
-#   on that partition telling where each file should go, and the script will 
-#   move them to the correct location on the Ventoy partition).
-#
-# =============================================================================
