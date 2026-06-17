@@ -16,8 +16,6 @@ MountBoot is a shell script that runs inside a lightweight liveboot environment 
 4. You boot the ISO and install the OS into the free space *(manual partitioning required; some installs may need UEFI mode)*
 5. Run the after-install cleanup to delete the Ventoy partitions and merge them into the main OS partition
 
-**Step 5 is not yet implemented.** For now, use an external tool like [GParted](https://gparted.org/) or [MiniTool Partition Wizard](https://www.minitool.com/partition-manager/) to manually merge the partitions after installation.
-
 ---
 
 ## Why MountBoot Instead of Netboot?
@@ -36,8 +34,6 @@ MountBoot is a shell script that runs inside a lightweight liveboot environment 
 
 - **This will wipe your selected disk.** There is no undo.
 - You can use pre-linked ISOs bundled with the script or supply your own.
-- If you're not comfortable with manual disk partitioning, wait for a more user-friendly release.
-- Windows 11 ISOs may not always work. If you run into issues, install Windows 10 first and upgrade afterward.
 
 ---
 
@@ -54,16 +50,8 @@ Follow the prompts. If you're unsure about any option, the defaults are generall
 
 ---
 
-## Current Features (v0.1)
-
-- Core Ventoy setup and ISO installation workflow
+- GUI version not done yet, only CLI.
 
 ---
 
-## What I still want to add/change:
-
-- After-install cleanup: auto-delete Ventoy partitions and merge free space into the OS partition
-- Support selecting an ISO from an existing partition/disk instead of downloading it
-- File preservation: save personal files before wiping, restore them after install
-- Add a pre-linked ISO library
-- Custom antiX ISO with MountBoot pre-installed and a friendlier interface
+Sorry if the github repository history is all messed up, it's my first time using github.
